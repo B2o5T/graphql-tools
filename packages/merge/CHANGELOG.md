@@ -1,5 +1,25 @@
 # @graphql-tools/merge
 
+## 6.2.15
+
+### Patch Changes
+
+- a31f9593: fix(merge): handle schema definitions correctly
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [982c8f53]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+  - @graphql-tools/utils@8.0.0
+  - @graphql-tools/schema@8.0.0
+
 ## 6.2.14
 
 ### Patch Changes

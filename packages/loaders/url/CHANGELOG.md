@@ -1,5 +1,35 @@
 # @graphql-tools/url-loader
 
+## 7.0.0
+
+### Major Changes
+
+- 7d3e3006: BREAKING CHANGE
+
+  - No more accept arrays or functions for `headers`
+
+  NEW FEATURES
+
+  - Respect `operationName` and `extensions`
+  - Ability to get headers from `extensions.headers`
+
+### Patch Changes
+
+- a31f9593: enhance(url-loader): avoid doing extra work on loader level
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [982c8f53]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+  - @graphql-tools/delegate@8.0.0
+  - @graphql-tools/wrap@8.0.0
+  - @graphql-tools/utils@8.0.0
+
 ## 6.10.1
 
 ### Patch Changes

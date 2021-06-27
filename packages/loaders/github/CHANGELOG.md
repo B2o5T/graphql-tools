@@ -1,5 +1,24 @@
 # @graphql-tools/github-loader
 
+## 6.3.0
+
+### Minor Changes
+
+- a31f9593: feat(github-loader): handle SDL correctly on loader level
+
+### Patch Changes
+
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [982c8f53]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+  - @graphql-tools/utils@8.0.0
+  - @graphql-tools/graphql-tag-pluck@6.5.2
+
 ## 6.2.5
 
 ### Patch Changes

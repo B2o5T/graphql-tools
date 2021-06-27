@@ -1,5 +1,40 @@
 # @graphql-tools/delegate
 
+## 8.0.0
+
+### Major Changes
+
+- 7d3e3006: BREAKING CHANGE
+  - Remove `rootValue` from subschemaConfig
+  - - Pass it through `ExecutionParams` or delegation options
+  - Do not pass `info.rootValue` if `rootValue` is falsy
+- 7d3e3006: BREAKING CHANGE
+  - Now it uses the native [`AggregateError`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/AggregateError) implementation. The major difference is the individual errors are kept under `errors` property instead of the object itself with `Symbol.iterator`.
+  ```js
+  // From;
+  for (const error of aggregateError)
+  // To;
+  for (const error of aggregateError.errors)
+  ```
+
+### Patch Changes
+
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [982c8f53]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+  - @graphql-tools/utils@8.0.0
+  - @graphql-tools/schema@8.0.0
+  - @graphql-tools/batch-execute@7.1.3
+
 ## 7.1.5
 
 ### Patch Changes

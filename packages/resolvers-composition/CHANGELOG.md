@@ -1,5 +1,20 @@
 # @graphql-tools/resolvers-composition
 
+## 6.2.9
+
+### Patch Changes
+
+- 316cc2d3: BugFix: Handle parsing endpoints when there are no mutations #3076
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [982c8f53]
+- Updated dependencies [7d3e3006]
+- Updated dependencies [7d3e3006]
+  - @graphql-tools/utils@8.0.0
+
 ## 6.2.8
 
 ### Patch Changes
